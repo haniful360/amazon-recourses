@@ -2,16 +2,16 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.cart-container{
-    border:2px solid saddlebrown
-}
+
 .products-container{
    display: grid;
    grid-template-columns:repeat(3,1fr);
    grid-gap:45px;
    justify-content: center;
-   margin: 200px 111px;
+   margin: 200px 111px; 
+}
+.cart-container{
+    border:2px solid saddlebrown;
+    background: rgba(255, 153, 0, 0.3);
 
-
-    
 }
